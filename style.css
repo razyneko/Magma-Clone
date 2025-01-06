@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    position: relative;
+    overflow: hidden;
+    /* pages will not overlap, scrollbar if comes will be hidden */
+}
+
+
+@font-face{
+    font-family: a;
+    src: url(./fonts/jost-variable.ttf);
+}
+
+@font-face{
+    font-family: b;
+    src: url(./fonts/KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
+}
+
+@font-face{
+    font-family: c;
+    src: url(./fonts/KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
+}
+
+#page1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#page1 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page1>nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 65px;
+    position: absolute;
+    height: 14vh;
+    width: 100vw;
+}
+
+#icon-div img{
+    width: 60px;
+}
+
+#right-nav>button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    font-family: a;
+    font-size: 15px;
+}
+
+#bottom-page1{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 12%;
+    left: 10%;
+    color: white;
+    gap: 6vh;
+}
+
+.headings{
+    font-size: 40px;
+    font-family: a;
+}
+
+.info{
+    display: flex;
+    gap: 80px;
+}
+
+.info button{
+    background-color: white;
+    border: none;
+    padding: 18px 55px;
+    border-radius: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.para{
+    font-size: 20px;
+}
