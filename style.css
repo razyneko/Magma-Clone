@@ -75,26 +75,54 @@ html,body{
     left: 10%;
     color: white;
     gap: 6vh;
+    font-family: "Jost";
+    font-weight: 200;
 }
 
 .headings{
-    font-size: 40px;
-    font-family: a;
+    font-size: 50px;
+    line-height: 1;
 }
 
 .info{
     display: flex;
-    gap: 80px;
+    gap: 60px;
+    align-items: end;
 }
 
 .info button{
     background-color: white;
     border: none;
-    padding: 18px 55px;
+    padding: 18px 50px;
     border-radius: 30px;
     font-size: 14px;
     text-transform: uppercase;
 }
 .para{
     font-size: 20px;
+}
+
+#page2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(44, 39, 39);
+    font-family: Jost;
+    color: white;
+    padding: 0vw 10vw;
+    gap: 2.5vw;
+    background-color: #0A3CCE;
+    position: relative;
+}
+
+#page2 h3{
+    text-transform: uppercase;
+}
+
+#page2 h1{
+    font-size: 4vw;
+    line-height: 1.3;
 }
