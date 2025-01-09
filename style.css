@@ -178,3 +178,101 @@ html,body{
     max-width: 100vw;
     max-height: 100vh;
 }
+
+#page6{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0A3CCE;
+    color: white;
+    font-family: Jost;
+    padding: 0vw 10vw;
+}
+
+#page6 h3{
+    text-transform: uppercase;
+}
+
+#page6 h1{
+    font-size: 4vw;
+    line-height: 1.3;
+    color: #dadada69;
+    margin-top: 5vh;
+}
+
+#page7{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0A3CCE;
+}
+
+#page7>canvas{
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.page7-circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+    height: 30vh;
+    width: 30vw;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.page7-circle-inner{
+    height: 70%;
+    width: 70%;
+    border-radius: 50%;
+    border: 1px solid white;
+    background: transparent;
+}
+
+#page8{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0A3CCE;
+}
+
+#page8>video{
+    height: 90%;
+    width: 100%;
+    object-fit: cover;
+}
+.page8-inner{
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: a;
+}
+
+.page8-inner h1{
+    color: white;
+    margin-bottom: 2vw;
+    font-size: 6vw;
+    font-weight: 100;
+}
+
+.page8-inner button{
+    padding: 17px 45px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    color: #0A3CCE;
+    font-size: 1vw;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
