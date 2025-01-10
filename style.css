@@ -276,3 +276,202 @@ html,body{
     text-transform: uppercase;
     opacity: 0.7;
 }
+
+#page9{
+    position: relative;
+    height: fit-content;
+    width: 100vw;
+    background-color: #0A3CCE;
+    font-family: Jost;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    margin: 20vh;
+}
+
+#container h1{
+    color: white;
+    display: flex;
+    margin-bottom: auto;
+    margin-top: 3vh;
+    font-size: 6vw;
+    line-height: 1;
+}
+
+#container img{
+    width: 54vw;
+    border-radius: 2%;
+    margin-bottom: 3vh;
+}
+
+.apps{
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+    color: white;
+}
+.apps h2:nth-of-type(2){
+    font-weight: 300;
+}
+
+#page10{
+    height: 160vh;
+    width: 100vw;
+    background-color: #fff;
+    font-family: Jost;
+    padding-top: 25vh;
+}
+
+#page10 .blog-head{
+    font-size: 6vw;
+    color: #000;
+    margin-left: 10vw;
+    margin-bottom: 10vh;
+    
+}
+
+.page10-inner{
+    display: flex;
+    margin-bottom: 2vw;
+    height: 30vh;
+    width: 80%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    gap: 4vw;
+}
+
+.blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.blog-img-1{
+    background-image: url("https://thisismagma.com/wp-content/uploads/2025/01/thisismagma.com-the-real-estate-event-of-the-year-miami-digital-twins-digital-assets-event-screenshot-2025-01-06-at-10.30.54.png");
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+
+}
+.blog-img-2{
+    background-image: url("https://thisismagma.com/wp-content/uploads/2025/01/thisismagma.com-ecosystem-ecosystem.jpg");
+    width: 50%;
+
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+
+}
+.blog-img-3{
+    background-image: url("https://thisismagma.com/wp-content/uploads/2024/12/thisismagma.com-a-year-to-remember-magmas-2024-1200x675-3.jpg");
+    width: 50%;
+
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+
+}
+
+#page11{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0A3CCE;
+    position: relative;
+
+}
+
+.page11-inner{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    color: white;
+    font-family: Jost;
+}
+
+.page11-inner h1{
+    font-size: 5vw;
+    font-weight: 100;
+}
+
+.page11-inner p{
+    font-size: 1.3vw;
+}
+
+#page12{
+    position: relative;
+    height: 50vh;
+    width: 100vw;
+    background-color: #000;
+    color: white;
+    font-family: Jost;
+    padding: 7vw 10vw;
+
+}
+
+#page12 h1{
+    font-size: 5vw;
+    line-height: 1;
+    font-weight: 100;
+}
+
+#page12>button{
+    padding: 18px 30px;
+    border: none;
+    background-color: #2c52c2;
+    color: white;
+    border-radius: 50px;
+    margin-top: 2vw;
+}
+
+#page13{
+    position: relative;
+    height: fit-content;
+    width: 100vw;
+    background-color: #000;
+}
+.page13-inner{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 5vw;
+    font-family: a;
+    height: 20vh;
+    width: 100%;
+    color: #fff;
+    border-top: .5px solid #ffffff5c;
+    border-bottom: .5px solid #ffffff48;
+}
+.page13-inner>i{
+    font-weight: 100;
+    font-size: 2.4vw;
+    position: relative;
+    z-index: 9999;
+}
+.page13-inner>h1{
+    font-size: 3vw;
+    font-weight: 100;
+    position: relative;
+    z-index: 9999;
+}
+
+.center{
+    height: 0%;
+    width: 100%;
+    background-color: #0a3cce;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: all ease .5s;
+}
+
+
+.page13-inner:hover .center{
+    height: 100%;
+}
